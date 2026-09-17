@@ -10,6 +10,12 @@ import (
 )
 
 func main() {
+	fmt.Println("PageCost calculates the cost of printing the specified number of pages.")
+	fmt.Println("OrderCost calculates the total cost for several copies.")
+	fmt.Println("ApplyBulkDiscount changes the cost through a pointer and applies a percentage discount.")
+	fmt.Println("FormatPrintReport creates a text report for the order.")
+	fmt.Println()
+
 	orderID := uuid.New().String()
 	pages := 120
 	copies := 5
